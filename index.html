@@ -1,5 +1,45 @@
 <html>
-<head>
-
-</head>
+	<head>
+		<title>Introductiong to Javasript
+		</title>
+	</head>
+	<body>
+		<!-- onclick,
+			Change style.fontsize="42px" -->
+		<h1 
+		id="action1" 
+		onclick="
+		document
+			.getElementById('action1')
+			.style
+			.fontSize='60px'
+		">Hello World 1</h1>
+		
+		<!-- ondblclick,
+			Change innerHTML="Goobye World" -->
+		<h1 
+		id="action2"
+		ondblclick="
+		document
+			.getElementById('action2')
+			.innerHTML ='Goobye World'
+		">Hello World 2 </h1>
+		<!-- onmouseover,
+			Change style.color="blue" -->
+		<h1 id="action3" 
+		onmouseover="
+		document 
+			.getElementById('action3')
+			.style.color='blue'
+		">Hello World 3 </h1>
+		
+		<!-- onmouseout,
+			Change style.backgroundColor="red" -->
+		<h1 id="action4"
+		onmouseout="
+		document
+			.getElementById('action4')
+			.style.backgroundColor='Red'
+			">Hello World 4 </h1>	
+	</body>
 </html>
